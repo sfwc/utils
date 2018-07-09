@@ -1,0 +1,25 @@
+name:                utils
+version:             0.1.0.0
+synopsis:            Command-line utilities
+-- description:         
+homepage:            https://github.com/sfwc/utils
+license:             BSD3
+license-file:        LICENSE
+author:              Sam Chapin
+maintainer:          sc@samchapin.com
+-- copyright:           
+-- category:            
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable formatcomments
+  main-is:             formatcomments.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:
+    base >=4.9 && <4.10,
+    monad-loops >=0.4.3 && <0.5,
+    text >=1.2.2.2 && <1.3
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
