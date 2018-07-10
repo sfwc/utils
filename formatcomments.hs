@@ -35,4 +35,4 @@ blockToLines (Comment prefix words) =
 main :: IO ()
 main =
     untilM TIO.getLine isEOF >>=
-      mapM_ TIO.putStrLn . concatMap blockToLines . merge . map lineToBlock
+        mapM_ TIO.putStrLn . concatMap blockToLines . merge . map lineToBlock
