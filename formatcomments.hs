@@ -2,8 +2,6 @@
 
 import qualified Data.Text as T
 import qualified Data.Text.IO as TIO
-import Control.Monad.Loops (untilM)
-import System.IO (isEOF)
 
 
 data Block = Comment T.Text [T.Text] | Ignored T.Text
