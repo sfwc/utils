@@ -22,3 +22,13 @@ executable formatcomments
     text >=1.2.2.2 && <1.3
   -- hs-source-dirs:      
   default-language:    Haskell2010
+
+executable formatpython
+  main-is:             formatpython.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:
+    base >=4.9 && <4.10,
+    language-python >=0.5.4 && <0.6
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
