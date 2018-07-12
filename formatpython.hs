@@ -1,5 +1,3 @@
-{-# LANGUAGE OverloadedStrings #-}
-
 import Language.Python.Version3.Parser (parseModule)
 import Language.Python.Common.Pretty (prettyText)
 import Language.Python.Common.PrettyAST ()
